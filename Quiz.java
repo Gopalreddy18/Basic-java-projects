@@ -4,11 +4,11 @@ import java.awt.event.*;
 
 public class Quiz extends JFrame implements ActionListener {
     String[][] questions = {
-        {"What is the capital of France?", "A. Paris", "B. London", "C. Rome", "D. Berlin", "A"},
-        {"Which planet is known as the Red Planet?", "A. Earth", "B. Mars", "C. Jupiter", "D. Venus", "B"},
-        {"Who wrote 'Romeo and Juliet'?", "A. Charles Dickens", "B. Mark Twain", "C. William Shakespeare", "D. Jane Austen", "C"},
-        {"Which gas do plants absorb from the atmosphere?", "A. Oxygen", "B. Nitrogen", "C. Carbon Dioxide", "D. Hydrogen", "C"},
-        {"Which is the largest ocean on Earth?", "A. Atlantic Ocean", "B. Indian Ocean", "C. Pacific Ocean", "D. Arctic Ocean", "C"}
+        {"which one is not a opps concept in java?", "A.Encapsulation", "B.Abstraction", "C.Class", "D.Inheritance", "C"},
+        {"Java is a platform independent?", "A. No", "B. Yes", "C. None of the above", "D. A nad B", "B"},
+        {"Which of the following is not a java keyword?", "A. static", "B. boolean", "C. extends", "D. final", "B"},
+        {"Which methos is the entry point for a java program?", "A. start()", "B.init()", "C.main()", "D. run()", "C"},
+        {"Which of the following is used to handle exceptions in java?", "A.catch", "B.try", "C.throw", "D. all of the above", "D"}
     };
 
     int currentQuestion = 0;
